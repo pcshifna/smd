@@ -1,0 +1,200 @@
+.blackHead {
+  width: 100%;
+  height: 30px;
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  padding-left: 30px;
+}
+.secondHead {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+
+  border-bottom: 2px solid rgb(235, 231, 224);
+  margin-bottom: 20px;
+}
+.secondHead button {
+  width: 100px;
+  height: 49px;
+  outline: none;
+  border-top: none;
+  border-left: none;
+  border-right-color: rgb(235, 231, 224);
+  border-bottom: none;
+  background-color: white;
+}
+.buttons button:active {
+  background-color: rgb(235, 231, 224);
+}
+.buttons button:hover {
+  background-color: rgb(235, 231, 224);
+}
+.social {
+  display: flex;
+}
+
+.main {
+  width: 100%;
+  height: 100%;
+  font-weight: 300;
+}
+.count {
+  border: 1px solid red;
+  width: 50px;
+  height: 30px;
+  text-align: center;
+}
+.social {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.thd {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.selectInstaMain {
+  width: 100%;
+  height: auto;
+  background-color: rgb(235, 231, 224);
+  padding: 30px 30px;
+}
+.firstRow {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
+.selectInstaDropDown select option[disabled] {
+  color: #999;
+  background-color: #eee;
+  cursor: not-allowed;
+  width: 200px;
+  height: 40px;
+}
+.right {
+  display: flex;
+}
+.removeAccount {
+  padding-right: 50px;
+}
+.addNewlink {
+}
+.secondRow {
+  width: 100%;
+  height: auto;
+  background-color: white;
+  padding: 20px 20px;
+}
+.upper {
+  display: flex;
+  width: 100%;
+  height: auto;
+}
+.post {
+  flex-grow: 3;
+}
+.link {
+  flex-grow: 11.3;
+}
+.deleteLink {
+  justify-content: end;
+}
+.lower {
+  width: 100%;
+  height: auto;
+  display: flex;
+  gap: 20px;
+  padding-bottom: 50px;
+}
+.selectPostDropDown {
+}
+.selectPostDropDown select option [disabled] {
+  width: 280px;
+   color: #999;
+  background-color: #eee;
+  cursor: not-allowed;
+}
+.enterLink input {
+  width: 500px;
+}
+/* select option:checked {
+  background-color: #ccc;
+  color: #333;
+} */
+.thirdRow {
+  display: none;
+  widows: 100%;
+  height: auto;
+}
+.thirdUpper {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: auto;
+  gap: 10px;
+}
+.new {
+  width: 250px;
+}
+.thirdLower {
+  display: flex;
+  width: 100%;
+  gap: 10px;
+}
+.thirdLower input {
+  width: 250px;
+}
+
+.postBoxRow {
+  display: none;
+  widows: 100%;
+  height: auto;
+}
+.postBox {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: auto;
+  gap: 10px;
+}
+.postlist {
+  width: 312.5px;
+}
+.postInputs {
+  display: flex;
+  width: 100%;
+  gap: 10px;
+}
+.postInputs input {
+  width: 312.5px;
+}
+
+.storyBoxRow {
+  display: none;
+  widows: 100%;
+  height: auto;
+}
+.storyBox {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: auto;
+  gap: 10px;
+}
+.storylist {
+  width: 312.5px;
+}
+.storyInputs {
+  display: flex;
+  width: 100%;
+  gap: 10px;
+}
+.storyInputs input {
+  width: 312.5px;
+}
